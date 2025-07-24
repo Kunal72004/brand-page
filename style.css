@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+     font-family: "Poppins", sans-serif;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    /* background-color: bisque; */
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-logo img{
+    width: 70px;
+}
+
+.nav-link{
+    display: flex;
+    gap: 20px;
+    font-size: 14px;
+    color: #2E2E2E;
+}
+
+.nav-btn{
+    background-color: #D01C28;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 5px;
+}
+
+.nav{
+    height: 10%;
+    /* background-color: red; */
+}
+
+.brand{
+    height: 90% ;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.box{
+    width: 80%;
+    height:85% ;
+    /* background-color: aqua; */
+    display: flex;
+}
+
+.content1{
+    width: 50%;
+    height: 100%;
+    /* background-color: darkorchid; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* align-items: center; */
+
+    }
+
+.txt{
+    font-size: 30px;
+    font-weight: bolder;
+    width: 75%;
+    margin-left: 130px;
+}
+.content1 p{
+    width: 60%;
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 130px;
+    opacity: .7;
+    line-height: 1rem;
+    
+    
+}
+.btns{
+    margin-left: 130px;
+    display: flex;
+    gap: 15px;
+    
+}
+
+.btn1{
+    background-color: #D01C28;
+    color: white;
+    padding: 5px 12px;
+    
+}
+.btn2{
+    background-color: transparent;
+    color: #5A5959;
+    padding: 5px 12px;
+    border: 1px solid #5A5959;
+    font-weight: 500;
+    
+}
+
+.brand-logo{
+    margin-left: 130px;
+    display: flex;
+    gap: 13px;
+    text-align: center;
+    
+}
+.content2{
+    width: 50%;
+    height: 100%;
+    /* background-color: lawngreen; */
+}
+.shoe{
+    margin-top: 30px;
+}
+.shoe img{
+    width: 450px;
+    height: 400px;
+    
+}
